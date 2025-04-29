@@ -1,16 +1,4 @@
-.texto-grande{
-    font-size: 64px;
-    line-height: 1.125;
-    font-size: 'Poppins';
-    font-weight: 600;
-}
 
-.texto-medio{
-    font-size: 24px;
-    line-height: 1.5;
-    font-size: 'Roboto';
-    font-weight: 400;
-}
 
 .font-1-xs {
     font: 400 0.75rem/1.35 "Poppins", sans-serif;
