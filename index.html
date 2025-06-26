@@ -7,6 +7,7 @@
         <meta name="description" content="Quando iniciamos a Bikcraft quriamos apenas
         um produto que adoraríamos utilizar. Eramos apaixonados por pedalar e também fazer. ">
 
+        <link rel="preload" href="./css/style.css" as="style">
         <link rel="stylesheet" href="./css/style.css">
         
         
@@ -20,7 +21,7 @@
     <header class="header-bg">
         <div class="header container">
         <a href="./">
-        <img src="./img/icones/icones-2/bikcraft.svg" alt="bikcraft"></a>
+        <img src="./img/icones/icones-2/bikcraft.svg" width="136" height="32" alt="bikcraft"></a>
 
         <nav aria-label="primaria">
         <ul class="header-menu font-1-m cor-0">
@@ -41,15 +42,15 @@
                     Explore o mundo na sua velocidade com a Bikcraft.</P>
                     <a class="botao" href="./bicicletas.html">Escolha a sua</a>
                 </div>
-                <div>
-                <img src="./img/bicicletas/nimbus-home.jpg" alt="bicicleta eletrica preta">
-                </div>
+            <picture>
+                <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
+                <img src="./img/bicicletas/nimbus-home.jpg" alt="Bicicleta preta com motor elétrico" width="640" height="800">
+            </picture>
             </div>
         </main>
 
         <article class="bicicletas-lista">
         <h2 class="container font-1-xxl">escolha a sua<span class="cor-p1">.</span></h2>
-
         <ul>
             <li>
                 <a href="./bicicletas/magic.html">
@@ -203,7 +204,5 @@
   </footer>
 
   <script src="./js/script.js"></script>
-
     </body>
-
 </html> 
