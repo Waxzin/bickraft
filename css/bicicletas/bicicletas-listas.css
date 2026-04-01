@@ -16,10 +16,10 @@
   margin: 0 auto;
   display: flex;
   gap: 40px;
-  overflow-y: hidden;
+  flex-wrap: wrap;
 }
 
-#home .bicicletas-lista ul {
+ .bicicletas-lista ul {
   max-width: 1400px;
   padding: 20px;
 }
